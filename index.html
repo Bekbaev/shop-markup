@@ -19,10 +19,14 @@
 <body>
     <header>
         <div class="container header__container">
-            <a href="#">
-                <img src="https://kz.foodsoul.pro/uploads/chains/386/images/themes/site/c50d7a04f5a28e1f5d4459fddd4fc12a.png"
-                    alt="Logo" class="header__logo">
-            </a>
+            <div class="header__info">
+                <a href="#">
+                    <img src="data:image/png;base64,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"
+                        alt="Logo" class="header__logo">
+                </a>
+                <p>Режим работы: 12:00 - 23:30</p>
+            </div>
+
             <div class="header__info">
                 <a href="#">
                     Ак.Бектурова 350
@@ -30,26 +34,39 @@
                 <a href="#">
                     +7 (707) 870-74-77
                 </a>
-                <a href="#" class="header__cart">
-                    Корзина
-                </a>
+                <div class="header-cart">
+                    <button href="#" class="header-cart__button btn-primary">
+                        Корзина
+                    </button>
+                    <div class="header-cart__body">
+                        <div class="header-cart__prices">
+                            <div> <span>Сумма заказа:</span><span>1790тг</span> </div>
+                            <div> <span>Доставка:</span><span>500тг</span> </div>
+                            <div> <span>К оплате:</span><span>2500тг</span> </div>
+                        </div>
+                        <button class="btn-primary">Оформить заказ</button>
+                    </div>
+                </div>
+
             </div>
 
         </div>
     </header>
 
     <nav>
-        <div class="nav__container">
-            <div class="container">
-                <!-- <img src="https://kz.foodsoul.pro/uploads/chains/386/images/themes/site/c50d7a04f5a28e1f5d4459fddd4fc12a.png"
+        <div class="container nav__container">
+            <!-- <img src="https://kz.foodsoul.pro/uploads/chains/386/images/themes/site/c50d7a04f5a28e1f5d4459fddd4fc12a.png"
                 alt="Logo" class="nav__logo"> -->
-                <ul>
-                    <li><a href="#">Пицца</a></li>
-                    <li><a href="#">Пицца</a></li>
-                    <li><a href="#" class="active">Пицца</a></li>
-                    <li><a href="#">Пицца</a></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="#">Пицца</a></li>
+                <li><a href="#">Пицца</a></li>
+                <li><a href="#" class="active">Пицца</a></li>
+                <li><a href="#">Пицца</a></li>
+                <li><a href="#">Пицца</a></li>
+                <li><a href="#">Пицца</a></li>
+                <li><a href="#">Пицца</a></li>
+                <li><a href="#">Пицца</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -57,26 +74,117 @@
         <div class="container main__container">
             <section class="products-block">
                 <h2>Пицца</h2>
-                <div class="card">
-                    <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/2dc6d9ade8ad451690284fa7b56cd8b7_138x138.jpeg"
-                        alt="product" class="card__img">
-                    <h4 class="card__title">Маргарита</h4>
-                    <div class="card__description">
-                        Соус песто, соус альфредо, цыплёнок, кубики брынзы, томаты, моцарелла
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="https://cdn.dostaevsky.ru/storage/dostaevsky/picca/picca-pepperoni-30-sm-medium-rectangular-ca312469796148369f2dae05b038bdb7.jpeg"
+                            alt="product" class="card__img">
+                        <h4 class="card__title">Маргарита</h4>
+                        <div class="card__description">
+                            Соус песто, соус альфредо, цыплёнок, кубики брынзы, томаты, моцарелла
+                        </div>
+                        <div class="card__bottom">
+                            <div class="card__price">от 3400тг</div>
+                            <button class="card__button btn-primary">Выбрать</button>
+                        </div>
                     </div>
-                    <div class="card__bottom">
-                        <div class="card__price">от 3400тг</div>
-                        <button class="card__button">Выбрать</button>
+
+                    <div class="card">
+                        <img src="https://sc01.chocofood.kz/hermes/food/3d73101b-cbc8-4c19-a4ee-acc45e26d3b5"
+                            alt="product" class="card__img">
+                        <h4 class="card__title">Маргарита</h4>
+                        <div class="card__description">
+                            Соус песто, соус альфредо, цыплёнок, кубики брынзы, томаты, моцарелла
+                        </div>
+                        <div class="card__bottom">
+                            <div class="card__price">от 3400тг</div>
+                            <button class="card__button btn-primary">Выбрать</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://sc01.chocofood.kz/hermes/restaurant/81651526-8234-4360-a6b7-692545a99aa2"
+                            alt="product" class="card__img">
+                        <h4 class="card__title">Маргарита</h4>
+                        <div class="card__description">
+                            Соус песто, соус альфредо, цыплёнок, кубики брынзы, томаты, моцарелла
+                        </div>
+                        <div class="card__bottom">
+                            <div class="card__price">от 3400тг</div>
+                            <button class="card__button btn-primary">Выбрать</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://kz.foodsoul.pro/uploads/branches/426/images/items/medium/97c69e67316aa53a94ce53508666cf99.jpg"
+                            alt="product" class="card__img">
+                        <h4 class="card__title">Маргарита</h4>
+                        <div class="card__description">
+                            Соус песто, соус альфредо, цыплёнок, кубики брынзы, томаты, моцарелла
+                        </div>
+                        <div class="card__bottom">
+                            <div class="card__price">от 3400тг</div>
+                            <button class="card__button btn-primary">Выбрать</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://cdn.dostaevsky.ru/storage/dostaevsky/deserty/maffin-shokoladnyjj-medium-rectangular-d8285a1e7c8949ab8ba60434833f6624.jpeg"
+                            alt="product" class="card__img">
+                        <h4 class="card__title">Маргарита</h4>
+                        <div class="card__description">
+                            Соус песто, соус альфредо, цыплёнок, кубики брынзы, томаты, моцарелла
+                        </div>
+                        <div class="card__bottom">
+                            <div class="card__price">от 3400тг</div>
+                            <button class="card__button btn-primary">Выбрать</button>
+                        </div>
                     </div>
 
                 </div>
-
             </section>
 
 
         </div>
 
     </main>
+
+
+    <div class="product-modal hide">
+        <div class="product-modal__body">
+            <img src="./assets/images/close.svg" alt="" class="product-modal__close">
+            <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/bf77dd935ca34292a3af8c6fc213877a_760x760.jpeg"
+                alt="product" class="product-modal__img">
+            <h4 class="product-modal__title">Маргарита</h4>
+            <div class="product-modal__description">
+                Соус песто, соус альфредо, цыплёнок, кубики брынзы, томаты, моцарелла
+            </div>
+            <div class="product-modal__size">
+                <span>Большая</span>
+                <span class="active">Средняя</span>
+            </div>
+            <button class="product-modal__button btn-primary">Добавить товар 1990 тг</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container footer__container">
+
+        </div>
+        <div class="footer__bottom">
+            сделано с любовью вместе <a href="#">*Мы обязательно придумаем название.kz*</a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.card__button').addEventListener('click', () => {
+            document.querySelector('.product-modal').classList.remove('hide')
+        })
+
+        document.querySelector('.product-modal__close').addEventListener('click', () => {
+            document.querySelector('.product-modal').classList.add('hide')
+        })
+
+    </script>
 </body>
 
 </html>
