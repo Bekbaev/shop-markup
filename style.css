@@ -206,7 +206,10 @@ header p,
     font-weight: 700;
     margin-top: 1rem;
 }
-
+.header-cart__prices hr{
+    background: var(--color-gray);
+    height: 1px;
+}
 .header-cart__prices div {
     margin-top: .6rem;
     display: flex;
@@ -288,11 +291,17 @@ main h2 {
 
 .card__title,
 .card__description {
-    margin-top: .7rem;
+    margin-top: .9rem;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height: 3rem;
 }
 
 .card__description {
     font-size: .9rem;
+    -webkit-line-clamp: 2;
 }
 
 .card__bottom {
